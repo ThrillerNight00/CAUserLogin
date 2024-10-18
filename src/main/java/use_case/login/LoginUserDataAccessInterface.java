@@ -29,7 +29,13 @@ public interface LoginUserDataAccessInterface {
 
     /**
      * Javadoc.
-     * @param name Takes in name.
+     * @param name Takes in a name.
      */
     void setCurrentUser(String name);
+
+    /**
+     * Javadoc.
+     * @return Returns a String.
+     */
+    String getCurrentUser();
 }
